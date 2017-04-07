@@ -1,7 +1,9 @@
 # Beans3
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+Dislplays a basic ggogle map using Angular 4. Angular 4 is the current default Angular version for Angular CLI.
 
+Setup of (Angular2-Google-Maps)[https://angular-maps.com/docs/getting-started.html#package-installation]
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
