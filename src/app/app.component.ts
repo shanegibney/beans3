@@ -5,8 +5,12 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title: string = 'This is my first angular2-google-maps project';
+export class AppComponent implements OnInit{
+  title: string = 'This... is rye first angular2-google-maps project';
   lat: number = 51.678418;
   lng: number = 7.809007;
+
+  ngOnInit(){
+    console.log("booee!");
+  }
 }
